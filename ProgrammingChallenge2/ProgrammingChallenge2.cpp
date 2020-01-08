@@ -1,21 +1,19 @@
-// ProgrammingChallenge2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+// name: Lilit Khamalyan
+// date: 1/07/2020
+// Programming Challenge 2: The East Coast Sales division of a company generates 58% of total sales.
+// Based on that percentage, write a program that will predict how much the East Coast division will generate if the company has $860,000 in sales this year. 
 #include "pch.h"
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+     double yearlySale = 860000.0;
+     double prediction;
+     // Calculate and display East Coast division's sales
+     prediction = yearlySale * 0.58;
+     cout << "East Coast will generate $" << prediction << " of total sales." << endl;
+     system("pause");
+     return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
